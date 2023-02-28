@@ -1,0 +1,102 @@
+body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    background-color: #130505;
+}
+
+.pai{
+    background-color:#1E1E1E;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10PX;
+}
+
+.foto{
+  margin-top: 30px;
+  width: 235px;
+  height: 235px;
+  border-radius: 10px;
+ 
+  display: column;
+  align-items: center;
+}
+
+.ft{
+    
+    width: 100%;
+    height: 100%;
+}
+    
+
+.name{
+    
+    margin-top:30px ;
+    width: 267px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.box {
+    width: 267px;
+    height: 36px;
+    float: left;
+    transition: 0.5s linear;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    background: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+  
+
+  .box:before {
+    
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+  }
+  
+.invisible{
+    width: 267px;
+    height: 36px;
+    
+}
+
+p {
+    color: white;
+}
